@@ -1,0 +1,22 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+table {
+  width: 100%;
+  min-width: 600px;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    overflow-x: auto;
+  }
+}
